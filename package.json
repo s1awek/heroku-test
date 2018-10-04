@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "watch": "nodemon --watch views/*",
     "test": "node test.js"
   },
   "dependencies": {
@@ -16,6 +17,8 @@
     "express": "^4.15.2"
   },
   "devDependencies": {
+    "foreman": "^3.0.0",
+    "nodemon": "^1.17.5",
     "request": "^2.81.0",
     "tape": "^4.7.0"
   },
